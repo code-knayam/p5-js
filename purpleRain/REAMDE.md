@@ -1,4 +1,4 @@
-#Purple Rain
+# Purple Rain
 
 In this practice problem, we are creating a rain type effect using p5.js
 
