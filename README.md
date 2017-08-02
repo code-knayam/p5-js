@@ -12,3 +12,12 @@ In sketch.js -
 function setup() { }
 
 function draw() { }
+
+# See the project
+Open the URL  -  
+https://code-knayam.github.io/p5-js/
+
+followed by the project name to view how it is working.
+
+Ex-  
+ https://code-knayam.github.io/p5-js/purpleRain
