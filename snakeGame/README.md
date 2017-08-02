@@ -7,3 +7,6 @@ Snake could be controlled by the arrow keys and would die upon crossing it self 
 For every bit eaten by snake its length would increase by 1.
 
 For score and game over event, open the console.
+
+Play the game here -
+https://code-knayam.github.io/p5-js/snakeGame
