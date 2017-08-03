@@ -32,8 +32,10 @@ function Snake() {
   };
 
   this.dir = function(x, y) {
-    this.xSpeed = x;
-    this.ySpeed = y;
+    if ( ! ( this.xSpeed !== 0 && x !==0 ) && ! ( this.ySpeed !== 0 && y !==0  ) ) {
+      this.xSpeed = x;
+      this.ySpeed = y;
+    }
   };
 
   this.eat = function(pos) {

@@ -1,12 +1,18 @@
 var s;
 var scl = 15;
 var food;
+var repeater;
 
 function setup() {
   createCanvas(600, 600);
   s = new Snake();
   frameRate(10);
+  repeatPickLocation();
+}
+
+function repeatPickLocation() {
   pickLocation();
+  setTimeout(repeatPickLocation, 5000);
 }
 
 function pickLocation() {
@@ -22,6 +28,7 @@ function draw() {
   if ( s.eat(food) ) {
     pickLocation();
   }
+
   s.death();
   s.update();
   s.show();
