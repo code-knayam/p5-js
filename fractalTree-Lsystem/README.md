@@ -5,5 +5,5 @@ In this practice problem, we are creating a fractal tree by using a L-system app
 In this we are replacing an Axiom by some other expression to generate a pattern.
 
 
-Watch the Rain here -
+Watch the Fractal Tree here -
 https://code-knayam.github.io/p5-js/fractalTree-Lsystem/

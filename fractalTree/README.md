@@ -6,5 +6,5 @@ Here various braches are created by using branch.js and creating objects of Bran
 Also at height of 6, leaf objects are created.
 
 
-Watch the Rain here -
+Watch the Fractal Tree here -
 https://code-knayam.github.io/p5-js/fractalTree
