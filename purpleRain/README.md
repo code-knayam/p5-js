@@ -8,4 +8,5 @@ We are updating the position of the drop by the fall function, where it is updat
 When the drop falls beyond the height of the frame, its position is again set as 0 ie on top.
 
 Watch the Rain here -
+
 https://code-knayam.github.io/p5-js/purpleRain
