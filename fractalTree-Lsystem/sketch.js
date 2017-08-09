@@ -4,7 +4,7 @@
 
 var axiom = "F";
 var sentence = axiom;
-var len = 100;
+var len = 150;
 var rules = [];
 var angle ;
 
@@ -14,7 +14,7 @@ rules[0] = {
 };
 
 function generate() {
-  len *= 0.5;
+  len *= 0.6;
   var nextSentence = "";
   for ( var i = 0; i< sentence.length; i++ ) {
     var current = sentence.charAt(i);
