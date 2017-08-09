@@ -17,6 +17,6 @@ Then a pz value is used to create a line effect between the last and the current
 
 Watch the Starfield here -
 
-https://code-knayam.github.io/p5-js/starfield
+https://code-knayam.github.io/p5-js/starfield/
 
 # Move mouse left - right to decrease - increase speed

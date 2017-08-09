@@ -9,4 +9,4 @@ When the drop falls beyond the height of the frame, its position is again set as
 
 Watch the Rain here -
 
-https://code-knayam.github.io/p5-js/purpleRain
+https://code-knayam.github.io/p5-js/purpleRain/

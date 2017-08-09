@@ -13,6 +13,6 @@ Repeat steps 2 and 3 for each of the remaining smaller cubes, and continue to it
 
 Watch the Menger Sponge here -
 
-https://code-knayam.github.io/p5-js/mengerSponge
+https://code-knayam.github.io/p5-js/mengerSponge/
 
 # Click to generate new iteration

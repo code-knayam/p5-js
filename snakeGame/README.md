@@ -10,6 +10,6 @@ For score and game over event, open the console.
 
 Play the game here -
 
-https://code-knayam.github.io/p5-js/snakeGame
+https://code-knayam.github.io/p5-js/snakeGame/
 
 # Open console to see the score. Move the snake with the arrow buttons.
