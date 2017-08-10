@@ -2,7 +2,7 @@ var stars = [];
 var speed;
 function setup() {
   createCanvas(1200, 600);
-  for ( var i = 0; i < 100; i++) {
+  for ( var i = 0; i < 500; i++) {
     stars[i] = new Star();
   }
 
