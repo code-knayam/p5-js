@@ -8,8 +8,6 @@ function setup() {
 function draw() {
 
   background(0);
-
-
   text( "Fancy Clock", 350, 100 );
   translate(400,400);
   rotate(-90);
