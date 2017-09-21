@@ -1,15 +1,14 @@
 
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1300, 700);
   angleMode(DEGREES);
 }
 
 function draw() {
 
-  background(0);
-  text( "Fancy Clock", 350, 100 );
-  translate(400,400);
+  background(0);  
+  translate(600,350);
   rotate(-90);
 
   let hr = hour();
@@ -57,5 +56,6 @@ function draw() {
   noStroke();
   fill(255);  
   text( hr + " : " + mn + " : " + sc, -25, 200 );
+  text( "Fancy Clock", -25, 220 );
 
 }
