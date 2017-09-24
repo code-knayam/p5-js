@@ -19,7 +19,7 @@ function setup() {
     createCanvas(650, 500);
     population = new Population();
     lifeP = createP();
-    reachedP = createP();    
+    reachedP = createP();
     target = createVector(width / 3, 50);
     //helper text
     createP("The smart rockets' goal is to reach the round target at the top. Rocket life is 400 frames and it crashes if it touches an obstacle or boundary. ");
@@ -29,14 +29,14 @@ function setup() {
 
 function draw() {
     background(0);
-    population.run();    
+    population.run();
     lifeP.html("Frames = " + count);
 
     count++;
     if (count == lifeSpan) {
         population.evaluate();
         population.reached();
-        reachedP.html("Reached in last generation  = " + reachedCount);
+        reachedP.html("Reached in last generation  = " + reachedCount + " / 25");
         population.selection();
         count = 0;
         reachedCount = 0;
