@@ -2,7 +2,7 @@
 
 function setup() {
   createCanvas(1300, 700);
-  angleMode(DEGREES);
+  angleMode(DEGREES);  
 }
 
 function draw() {
