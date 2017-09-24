@@ -53,4 +53,12 @@ function Population() {
             this.rockets[i].show();
         }
     }
+
+    this.reached = function () {
+        for (var i = 0; i < this.popSize; i++) {            
+            if (this.rockets[i].hasCompleted()) {
+                reachedCount++;                
+            }            
+        }
+    }
 }

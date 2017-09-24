@@ -19,16 +19,19 @@ function Rocket(dna) {
     this.update = function () {
 
         var d = dist(this.pos.x, this.pos.y, target.x, target.y);
-        if (d < 10) {
-            this.completed = true;
+        if (d < 20) {
+            this.completed = true;            
             this.pos = target.copy();            
         }
 
-        if (this.pos.x > rx
-            && this.pos.x < rx + rw
-            && this.pos.y > ry
-            && this.pos.y < ry + rh) {
-            this.crashed = true;
+        //obstacles
+        for (var i = 0; i < obstacle.length; i++) {
+            if (this.pos.x > obstacle[i].rx
+                && this.pos.x < obstacle[i].rx + rw
+                && this.pos.y > obstacle[i].ry
+                && this.pos.y < obstacle[i].ry + rh) {
+                this.crashed = true;
+            }
         }
 
         if (this.pos.x > width || this.pos.x < 0) {
@@ -58,15 +61,21 @@ function Rocket(dna) {
             this.fitness /= 10;
         }
     }
+    
+    this.hasCompleted  = function() {        
+        return this.completed;
+    }
 
     this.show = function () {
         push();
         noStroke();
-        fill(255, 150);
+        var color = random();
+        fill(95 * color, 300 * color, 20 * color);
         translate(this.pos.x, this.pos.y);
         rotate(this.vel.heading());
-        rectMode(CENTER);
-        rect(0, 0, 25, 5);
+        rectMode(CENTER);        
+        ellipse(10, 0, 15, 15);                
+        rect(0, 0, 25, 6);
         pop();
     }
 
