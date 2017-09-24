@@ -49,8 +49,8 @@ function draw() {
     }
 
     //bunker
-    fill(200, 150, 150);
-    // ellipse(width / 2, height, 25, 25);
+    fill(250, 70, 50);
+    ellipse(width / 2, height, 30, 30);
 
     // target
     fill(100, 150, 100);
