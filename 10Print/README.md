@@ -1,9 +1,9 @@
 # Fancy CLock
 
-In this practice problem, we are creating a fancy clock.
+In this practice problem, we are creating a fancy zig-zag pattern.
 
-The arcs represent the different hands of clock.
+Using the famous 10Print code pattern.
 
-Watch the Clock here -
+Watch the 10Print here -
 
-https://code-knayam.github.io/p5-js/clock/
+https://code-knayam.github.io/p5-js/10Print/
